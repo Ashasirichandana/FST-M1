@@ -46,8 +46,8 @@ public class ConsumerTest {
     public void postRequestTest(){
         Map<String, Object> reqBody = new HashMap<>();
         reqBody.put("id", 1152);
-        reqBody.put("firstName", "Dimple");
-        reqBody.put("lastName", "Badiye");
+        reqBody.put("firstName", "Asha");
+        reqBody.put("lastName", "G");
         reqBody.put("email", "test@example.com");
 
         given().baseUri("http://localhost:8282").headers(headers).body(reqBody).when()
